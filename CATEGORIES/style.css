@@ -1,0 +1,51 @@
+.price {
+    background-color: rgb(255, 255, 0);
+    border-radius: 5px;
+}
+
+.sidebar {
+    position: absolute;
+    top: 170px;
+    left: 220px;
+    width: 180px;
+    /* Adjust the width of the sidebar */
+    height: 100vh;
+    background-color: #fff;
+    padding: 20px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+      
+
+}
+
+.main-content {
+    margin-left: 100px;
+    /* Adjust the margin-left value to create space for the sidebar */
+}
+
+.product-card {
+    margin-left: 220px;
+    /* Adjust the left margin as needed */
+    width: calc(155% - 155px);
+    /* Adjust the percentage width and margin value as needed */
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.title-products {
+    margin-left: 180px;
+    width: calc(40% - 40px);
+}
+
+
+
+
+.main-content {
+    margin-right: 120px;
+    /* Adjust the margin to accommodate the sidebar width */
+    padding-left: 20px;
+    /* Add padding to create space for the sidebar */
+}
